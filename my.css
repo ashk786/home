@@ -1,0 +1,159 @@
+button{height:60px;width:150px;border-radius:3px;background-color:#F47808;letter-spacing:1px;color:white;float:left;text-align: center;border-width:2px;box-shadow: 2px 2px 12px burlywood}
+a{text-decoration: none;color:white;font-family:comic sans ms, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-decoration-style: solid}
+#bdy{background-image: url("back.jpg");background-size:cover;background-repeat: no-repeat;}
+p{color:#F47808;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+.dropbtn {
+    
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    
+}
+
+hr{background-color:#F47808}
+    #shape{
+                position:relative;border:2px solid #F47808;
+            }
+.box{width: 650px;height:620px;border:2px solid #F47808;background-color: transparent;padding:10px;}
+            b{font-family:comic sans ms;}
+            p{font-size: 10px;color:#F47808}
+            #leftbox{float:left;border-right:2px solid #F47808;width:50%;color:#F47808}
+            #rightbox{float:left;padding:6px;color:#F47808}
+
+.dropbtn1 {
+    
+    color: white;
+    display: block;
+    font-size: 16px;
+    
+}
+.btngrpp:hover{
+background-color:#F5D453;color:black;
+
+}
+
+.dropbtn1:hover>ul{
+    display:block;
+}
+
+header {
+    position: fixed;
+    
+}
+
+@media only screen and (max-width: 720px) {
+    header {
+        position: absolute;
+    }
+}
+ol{color:white;}
+ol:hover{text-shadow: 2px 2px 12px #F47808;}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color:transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown1-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #F5D453;color:black;}
+.dropdown-content1 a:hover {background-color: #F5D453;color:black;}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown1:hover .dropdown-content {display: block;}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #F47808;}
+.dropdown1:hover .dropbtn {background-color: #F47808;}
+#myDIV {
+    width: 100%;
+    
+    background:transparent;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+        50% {word-spacing: 10px;}
+        50% {text-shadow: 10px 20px 18px #F47808;}
+        50% {-webkit-transform: rotateX(360deg);}
+
+        50% {letter-spacing: 50px;}
+
+
+
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {word-spacing: 50px;}
+    50% {text-shadow: 10px 20px 18px #F47808;}
+    50% {transform:rotateX(360deg);}
+    50% {letter-spacing: 50px;}
+
+
+
+}
+
+#mydir {
+    
+    -webkit-animation: mymover 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymover 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymover {
+    50% {box-shadow: 5px 15px 15px #F47808;}
+    
+
+
+}
+
+@keyframes mymover {
+    50% {box-shadow: 5px 15px 15px #F47808;}
+    
+
+
+}
+::-webkit-scrollbar {
+display: none;
+}
